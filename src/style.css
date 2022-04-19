@@ -38,11 +38,19 @@
 .container {
   position: absolute;
 }
+
 nav {
   height: 118px;
-  width: 1440px;
-  padding: 20px 20px;
+  width: 95%;
+  padding: 20px 140px;
+  font-size: 16px;
   background-color: #202020;
+}
+
+nav .company {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 nav ul {
@@ -64,7 +72,32 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-nav li.active a {
+nav a:hover {
+  color: #282323;
+}
+
+.images {
+  background-color: #202020;
+  padding: 144px;
+  width: 1440px;
+}
+
+footer {
+  padding: 41px 140px;
   color: #ffff;
+  background-color: #282323;
+}
+
+footer .company {
+  font-weight: bold;
+  font-size: 25px;
+}
+footer .copyright {
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+footer .icons {
+  font-size: 16px;
+  line-height: 18.4px;
 }
