@@ -1,0 +1,42 @@
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+}
+.hero {
+  background-image: url("../src/photos/bg.png");
+  width: 1440px;
+  height: 900px;
+  color: #ffff;
+  text-align: center;
+  padding: 423px 329px;
+  position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.btn-branding {
+  width: 200px;
+  height: 53px;
+  padding: 18px 40px 18px 40px;
+  background: #ffff;
+  border-radius: 50px;
+  color: #272142;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  padding: 276[x 616px;
+}
+
+.hero p {
+  font-size: 18px;
+  padding: 490px 402px;
+}
