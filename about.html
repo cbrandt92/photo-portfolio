@@ -33,10 +33,10 @@
       <nav class="d-flex justify-content-between">
         <div class="company">SheCodes</div>
         <ul>
-          <li>
+          <li class="active">
             <a href="/" title="Home page">Home</a>
           </li>
-          <li class="active">
+          <li>
             <a href="/about.html" title="About ">About</a>
           </li>
           <li><a href="/work.html" title="Gallery">Gallery </a></li>
@@ -46,40 +46,44 @@
         </ul>
       </nav>
     </div>
-    <div class="content">
+    <div class="content-container">
       <div class="row">
-        <div class="col-6">
-          <img src="src/photos/bg-about.png" alt="" class="image-about" />
+        <div class="col">
+          <img src="src/photos/bg-about.png" alt="" />
         </div>
-        <div class="col-6">
-          <h4>ABOUT ME</h4>
-          <h1>SHELLEY White</h1>
+        <div class="col">
+          <h4 class="mb-3">ABOUT ME</h4>
+          <h1 class="mb-4">SHELLEY WHITE</h1>
           <p>
             Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
             sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut
             amet diam suscipit pretium massa, sollicitudin in risus in.
             Sagittis.
           </p>
-          <div class="icons ms-5">
+          <div class="icons mt-4">
             <i class="fa-brands fa-facebook-square me-3"></i>
             <i class="fa-brands fa-instagram me-3"></i>
             <i class="fa-brands fa-linkedin"></i>
           </div>
-          <h4>MY CAMERA</h4>
-          <img src="src/photos/camera.png" alt="" />
-          <p>Olympus PEN-F Kamera Mirrorlees</p>
-          <a href="/contact.html" class="btn btn-branding"</a>CONTACT ME
+          <h4 class="mb-3 mt-5">MY CAMERA</h4>
+          <div class="camera-box d-flex justify-content-center">
+            <img src="src/photos/camera.png" class="camera" alt="" />
+            <p>Olympus PEN-F Kamera Mirrorlees</p>
+          </div>
+          <a href="/contact.html" class="btn btn-branding mt-5">CONTACT ME</a>
         </div>
       </div>
     </div>
-    <footer class="d-flex justify-content-between">
-      <div class="company">SheCodes</div>
-      <div class="icons ms-5">
-        <i class="fa-brands fa-facebook-square me-3"></i>
-        <i class="fa-brands fa-instagram me-3"></i>
-        <i class="fa-brands fa-linkedin"></i>
+    <footer>
+      <div class="d-flex justify-content-between">
+        <div class="company">SheCodes</div>
+        <div class="icons ms-5">
+          <i class="fa-brands fa-facebook-square me-3"></i>
+          <i class="fa-brands fa-instagram me-3"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="copyright"><p>©2021 SheCodes All rights reserved.</p></div>
       </div>
-      <div class="copyright"><p>©2021 SheCodes All rights reserved.</p></div>
     </footer>
   </body>
 </html>
