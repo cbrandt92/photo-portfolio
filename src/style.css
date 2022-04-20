@@ -1,6 +1,10 @@
 :root {
   --heading-font-family: "Roboto", sans-serif;
   --branding-color: #272142;
+  --secondary-color: #f65282;
+}
+body {
+  margin: 0;
 }
 .hero {
   background-image: url("../src/photos/bg.png");
@@ -41,10 +45,12 @@
 
 nav {
   height: 118px;
-  width: 95%;
+  width: 100%;
   padding: 20px 140px;
   font-size: 16px;
   background-color: #202020;
+  position: fixed;
+  top: 0;
 }
 
 nav .company {
@@ -83,6 +89,7 @@ nav a:hover {
 }
 
 footer {
+  width: 100%;
   padding: 41px 140px;
   color: #ffff;
   background-color: #282323;
@@ -100,4 +107,14 @@ footer .copyright {
 footer .icons {
   font-size: 16px;
   line-height: 18.4px;
+}
+
+.content {
+  margin-top: 140px;
+}
+
+.image-about {
+  height: 782px;
+  width: 700px;
+  left: 0;
 }
