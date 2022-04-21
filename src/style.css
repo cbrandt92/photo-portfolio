@@ -39,6 +39,7 @@ body {
 
 p {
   font-size: 18px;
+  color: #fff;
 }
 
 .container {
@@ -116,11 +117,13 @@ footer .icons {
   padding: 120px 0px;
 }
 
-.content-container h1 {
+h1 {
   font-size: 58px;
   font-weight: bold;
+  color: #fff;
 }
-.content-container h4 {
+
+h4 {
   color: var(--secondary-color);
   font-size: 18px;
   font-weight: bold;
@@ -143,4 +146,14 @@ footer .icons {
   height: 782px;
   top: 118px;
   left: 0px;
+}
+
+.container-contact {
+  background: #202020;
+  text-align: center;
+  padding: 77px;
+}
+
+.info {
+  padding: 120px;
 }
