@@ -49,7 +49,7 @@ nav {
   width: 100%;
   padding: 20px 140px;
   font-size: 16px;
-  background-color: #202020;
+  background-color: #282323;
   position: fixed;
   top: 0;
 }
@@ -113,11 +113,11 @@ footer .icons {
 .content-container {
   background: #202020;
   color: #ffff;
-  padding: 88px;
+  padding: 120px 0px;
 }
 
 .content-container h1 {
-  font-size: 64px;
+  font-size: 58px;
   font-weight: bold;
 }
 .content-container h4 {
@@ -126,8 +126,21 @@ footer .icons {
   font-weight: bold;
 }
 
-.camera-box {
+.btn-about {
+  width: 380px;
+  height: 53px;
+  padding: 20px 25px;
+  text-align: center;
   background: #2d2727;
-  padding: 30px;
   border-radius: 4px;
+  color: #fff;
+  line-height: 17px;
+}
+
+.about-photo {
+  background: #282323;
+  width: 700px;
+  height: 782px;
+  top: 118px;
+  left: 0px;
 }
