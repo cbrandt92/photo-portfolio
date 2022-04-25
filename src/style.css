@@ -116,7 +116,10 @@ footer .icons {
   color: #ffff;
   padding: 120px 0px;
 }
-
+.about-me {
+  width: 560px;
+  height: 90px;
+}
 h1 {
   font-size: 58px;
   font-weight: bold;
@@ -129,9 +132,14 @@ h4 {
   font-weight: bold;
 }
 
+.canera {
+  width: 70px;
+  height: 40px;
+}
+
 .btn-about {
-  width: 380px;
-  height: 53px;
+  width: 423px;
+  height: 80px;
   padding: 20px 25px;
   text-align: center;
   background: #2d2727;
@@ -156,4 +164,11 @@ h4 {
 
 .info {
   padding: 120px;
+}
+
+.gallery {
+  background: #202020;
+  color: #ffff;
+  padding: 120px 0px;
+  text-align: center;
 }
